@@ -1,0 +1,188 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: rgb(3, 3, 100);
+    scroll-behavior: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3vw;
+    font-size: 2.3vh;
+    background-color: white;
+    height: 10vh;
+    font-size: 2.3vh;
+    background-color: rgb(255, 5, 109);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav img {
+    height: 4.5vh;
+}
+
+.h1 {
+    color: #ffffff;
+}
+
+.h2 {
+    color: rgb(3, 3, 100);
+}
+
+.btn {
+    /* margin: 2vh; */
+    padding: 0.5vh 3vh;
+    background-color: rgb(3, 3, 100);
+    border-radius: 10px;
+    border: 2px solid rgb(255, 5, 109);
+    width: fit-content;
+    position: absolute;
+    right: 7vh;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bolder;
+}
+
+.btn:hover a {
+    color: rgb(255, 9, 109);
+}
+
+.btn:hover {
+    border: 2px solid rgb(3, 3, 100);
+    background-color: rgb(3, 3, 100);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 520px) {
+    .btn {
+        display: none;
+    }
+
+}
+
+.head1 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 6vh;
+}
+
+.head2 {
+    color: rgb(3, 3, 100);
+    font-family: 'Poppins', sans-serif;
+    font-size: 6vh;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    margin-top: 9vh;
+    align-items: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: rgb(255, 5, 109);
+    border-bottom-left-radius: 50vh;
+}
+
+.icon img {
+    height: 20vh;
+}
+
+.logo {
+    display: flex;
+    margin-top: -4vh;
+}
+
+@media screen and (max-width: 1333px) {
+    .container {
+        padding-top: 10vh;
+    }
+
+}
+
+.sloagn {
+    color: #FFF;
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sloagnlogo img {
+    margin: 2px;
+    height: 18px;
+}
+
+.info {
+    color: #FFF;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.hed {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5vh;
+    width: fit-content;
+}
+
+.hed:hover {
+    scroll-behavior: scroll;
+}
+
+.heading {
+    font-size: 6.9vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    width: 48vw;
+
+}
+
+.pa {
+    display: flex;
+    top: 6vh;
+    right: 2px;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    width: 30%;
+
+}
+
+.paragarph {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    width: 50vw;
+    padding: 30px;
+}
+
+@media screen and (max-width: 1333px) {
+    .paragarph {
+        text-align: center;
+        width: 90vw;
+        margin: 5%;
+    }
+
+    .pa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        width: 100%;
+    }
+}

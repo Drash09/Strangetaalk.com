@@ -1,0 +1,54 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Video Chat Interface
+  script(src='https://cdn.scaledrone.com/scaledrone.min.js')
+  link(rel='stylesheet', href='static/call.css')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap', rel='stylesheet')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100&display=swap', rel='stylesheet')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&display=swap', rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap', rel='stylesheet')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=League+Gothic&display=swap', rel='stylesheet')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap', rel='stylesheet')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Kalam&display=swap', rel='stylesheet')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap', rel='stylesheet')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap', rel='stylesheet')
+  
+nav
+  img(src='./static/img/pngegg.png', alt='@')
+  h1.h1  Strange
+  h2.h2 Taalk
+  .btn
+    a(href='/') Quit
+//
+  <header>
+  <h1>Video Chat Interface</h1>
+  <p class="copy">Send your URL to a friend to start a video call</p>
+// </header>
+main
+  section
+    video#localVideo(autoplay='', muted='')
+    video#remoteVideo(autoplay='')
+footer
+  script(src='./static/call.js')

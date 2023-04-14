@@ -9,6 +9,8 @@
   "author": "Darshan",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2",
     "socket.io": "^4.6.1"
   }
 }
