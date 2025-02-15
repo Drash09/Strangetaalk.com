@@ -24,7 +24,7 @@ io.on('connection',socket =>{
 })
 // Node Serever*********************************************************
 const express = require('express');
-const path = require('path');  
+const path = require('path'); 
 app = express();
 const port = 3000;
 app.use('/static',express.static('../static'));
@@ -45,3 +45,4 @@ app.get('/about',(req,res)=>{
 app.listen(port,()=>{
     console.log(`site is Running on http://localhost:${port}/`); 
 }) 
+//hello
